@@ -10,7 +10,7 @@ const Website = ({Component, pageProps, router}) => {
     theme={theme}>
         <Fonts />
         <Layout router={router}> 
-        <AnimatePresence wait exitBeforeEnter initial={true}>
+        <AnimatePresence exitBeforeEnter initial={true}>
             <Component {...pageProps} key={router.route} /> 
         </AnimatePresence>
         </Layout>

@@ -96,9 +96,9 @@ const Navbar = props => {
                         </LinkItem>
 
                         <LinkItem 
-                        href="https://github.com/deodagee/AstrumNewPage/tree/main/pages/works"
+                        href="https://github.com/deodagee/greenrepo"
                         path= {path}>
-                        Source Code
+                        Code
                         </LinkItem>
 
                     </Stack>
@@ -134,7 +134,7 @@ const Navbar = props => {
                                     <MenuItem as={Link}>Gallery</MenuItem>
                                 </NextLink>
 
-                                <NextLink href="https://github.com/deodagee/AstrumNewPage/tree/main/pages/works" passHref>
+                                <NextLink href="https://github.com/deodagee/greenrepo" passHref>
                                     <MenuItem as={Link}>Source Code</MenuItem>
                                 </NextLink> 
                             </MenuList>

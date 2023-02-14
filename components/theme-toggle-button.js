@@ -6,7 +6,7 @@ const ThemeToggleButton = () => {
   const { toggleColorMode } = useColorMode()
 
   return (
-    <AnimatePresence wait exitBeforeEnter initial={false}>
+    <AnimatePresence exitBeforeEnter initial={false}>
       <motion.div
         style={{ display: 'inline-block' }}
         key={useColorModeValue('dark', 'light')}
