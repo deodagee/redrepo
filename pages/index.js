@@ -19,7 +19,7 @@ import Section from '../components/section';
 import { GridItem } from '../components/grid-item';
 import {  IoLogoInstagram, IoLogoReddit, IoLogoDribbble } from 'react-icons/io5';
 import thumbnail3 from '../public/images/works/thumbnail3.png';
-import Image from 'next/legacy/image';
+import Image from 'next/image';
 
 const ProfileImage = chakra(Image, {
   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
