@@ -33,7 +33,8 @@ const Works = () => (
           mb = {10} 
           id="weatherapp" 
           title="weatherapp" 
-          thumbnail={weatherapp}>
+          thumbnail={weatherapp}
+          quality={50}>
             WeatherForYou
           </WorkGridItem>
         </Section>
@@ -51,7 +52,8 @@ const Works = () => (
           mb = {10} 
             id=""
             title="Empty"
-            thumbnail={thumbnail}>
+            thumbnail={thumbnail}
+            quality={50}>
             Description
           </WorkGridItem>
         </Section>
@@ -61,7 +63,8 @@ const Works = () => (
           mb = {10} 
             id=""
             title="Empty"
-            thumbnail={thumbnail}>
+            thumbnail={thumbnail}
+            quality={50}>
             Description
           </WorkGridItem>
         </Section>
@@ -70,7 +73,8 @@ const Works = () => (
           <WorkGridItem 
           id=""
           title="Empty"
-          thumbnail={thumbnail} >
+          thumbnail={thumbnail}
+          quality={50} >
           Description
           </WorkGridItem>
         </Section>
@@ -89,7 +93,8 @@ const Works = () => (
           <WorkGridItem 
           id=""
           title="Empty"
-          thumbnail={thumbnail} >
+          thumbnail={thumbnail} 
+          quality={50}>
           Description
           </WorkGridItem>
         </Section>
@@ -97,7 +102,8 @@ const Works = () => (
           <WorkGridItem
             id=""
             title="Empty"
-            thumbnail={thumbnail}>
+            thumbnail={thumbnail}
+            quality={50}>
             Description
           </WorkGridItem>
         </Section>
@@ -105,7 +111,8 @@ const Works = () => (
           <WorkGridItem 
           id=""
           title="Empty"
-          thumbnail={thumbnail} >
+          thumbnail={thumbnail}
+          quality={50} >
           Description
           </WorkGridItem>
         </Section>
@@ -124,7 +131,8 @@ const Works = () => (
           <WorkGridItem 
           id=""
           title="Empty"
-          thumbnail={thumbnail} >
+          thumbnail={thumbnail}
+          quality={50} >
           Description
           </WorkGridItem>
         </Section>
@@ -132,7 +140,8 @@ const Works = () => (
           <WorkGridItem
             id=""
             title="Empty"
-            thumbnail={thumbnail}>
+            thumbnail={thumbnail}
+            quality={50}>
             Description
           </WorkGridItem>
         </Section>
@@ -140,7 +149,8 @@ const Works = () => (
           <WorkGridItem 
           id=""
           title="Empty"
-          thumbnail={thumbnail} >
+          thumbnail={thumbnail}
+          quality={50} >
           Description
           </WorkGridItem>
         </Section>

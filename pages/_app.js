@@ -10,7 +10,7 @@ const Website = ({Component, pageProps, router}) => {
     theme={theme}>
         <Fonts />
         <Layout router={router}> 
-        <AnimatePresence mode='wait' initial={true}>
+        <AnimatePresence mode='sync' initial={true}>
             <Component {...pageProps} key={router.route} /> 
         </AnimatePresence>
         </Layout>

@@ -49,6 +49,7 @@ import {
               src="https://digitalmarketinginstitute.com/blog/what-is-seo-and-why-is-it-important"
               className="image-appstore"
               alt="See why your SEO matters "
+              quality={50}
             />
           </Link>
         </Box>

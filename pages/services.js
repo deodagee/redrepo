@@ -31,7 +31,8 @@ const Works = () => (
           <WorkGridItem
             id="branding"
             title="Branding"
-            thumbnail={branding}>
+            thumbnail={branding}
+            quality={50}>
             Description
           </WorkGridItem>
         </Section>
@@ -40,7 +41,8 @@ const Works = () => (
           <WorkGridItem
             id="flstudio"
             title="Audio"
-            thumbnail={flstudio}>
+            thumbnail={flstudio}
+            quality={50}>
             Description
           </WorkGridItem>
         </Section>
@@ -49,7 +51,8 @@ const Works = () => (
           <WorkGridItem 
           id="frontend"
           title="Front/Back End"
-          thumbnail={frontend} >
+          thumbnail={frontend}
+          quality={50} >
           Description
           </WorkGridItem>
         </Section>
@@ -59,6 +62,7 @@ const Works = () => (
             id="geometrynodes"
             title="Geometry Nodes"
             thumbnail={geometrynodes}
+            quality={50}
           >
             Description
           </WorkGridItem>
@@ -69,6 +73,7 @@ const Works = () => (
             id="modeling"
             title="Modeling"
             thumbnail={modeling}
+            quality={50}
           >
             Description
           </WorkGridItem>
@@ -76,6 +81,7 @@ const Works = () => (
         <Section delay={0.1}>
           <WorkGridItem id="uiux" 
           thumbnail={uiux} 
+          quality={50}
           title="Ui / Ux">
           Description
           </WorkGridItem>

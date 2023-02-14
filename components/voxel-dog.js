@@ -10,7 +10,7 @@ function easeOutCirc(x) {
 
 const VoxelDog = () => {
   const refContainer = useRef()
-  const [loading, setLoading] = useState(true)
+  const [loading, setLoading] = useState(false)
   const refRenderer = useRef()
   const urlDogGLB = '/dog.glb'
 

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from 'next/legacy/image';
 import {Text, useColorModeValue} from '@chakra-ui/react';
 import styled from '@emotion/styled';
 
@@ -28,7 +28,8 @@ const Logo = () => {
                     src={footPrintImg}
                     width={30}
                     height={30}
-                    alt="logo" />
+                    alt="logo"
+                    quality={50} />
                     <Text
                     color={useColorModeValue('#D0021B', '#E5E5E5')}
                     fontFamily="'Babylonica', cursive "
