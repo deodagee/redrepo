@@ -6,6 +6,8 @@ module.exports = {
         unoptimized: true,
         loader: 'akamai',
         path: '/',
+  
+        
         
       },
 
