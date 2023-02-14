@@ -3,12 +3,12 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
-import branding from '../public/images/works/branding.png'
-import flstudio from '../public/images/works/flstudio.png'
-import frontend from '../public/images/works/frontend.png'
-import geometrynodes from '../public/images/works/geometrynodes.png'
-import modeling from '../public/images/works/modeling.png'
-import uiux from '../public/images/works/uiux.png'
+import branding from '../public/images/works/branding.jpg'
+import flstudio from '../public/images/works/flstudio.jpg'
+import frontend from '../public/images/works/frontend.jpg'
+import geometrynodes from '../public/images/works/geometrynodes.jpg'
+import modeling from '../public/images/works/modeling.jpg'
+import uiux from '../public/images/works/uiux.jpg'
 
 
 const Works = () => (

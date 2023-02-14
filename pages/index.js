@@ -18,7 +18,7 @@ import Layout from '../components/layouts/article';
 import Section from '../components/section';
 import { GridItem } from '../components/grid-item';
 import {  IoLogoInstagram, IoLogoReddit, IoLogoDribbble } from 'react-icons/io5';
-import thumbnail3 from '../public/images/works/thumbnail3.png';
+import thumbnail3 from '../public/images/works/thumbnail3.jpg';
 import Image from 'next/image';
 
 const ProfileImage = chakra(Image, {

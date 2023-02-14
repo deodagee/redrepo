@@ -46,7 +46,6 @@ import {
   
           <ListItem>
               <Badge mr={2}>Flexible</Badge>
-              walknote:
               flexibility to evolve an idea over time, while still maintaining a core identity.
               <ExternalLinkIcon mx="2px" />
           </ListItem>
@@ -64,11 +63,12 @@ import {
           </ListItem>
         </UnorderedList>
   
+  
         <SimpleGrid
         ml="35%"
          columns={2} 
          gap={2}>
-          <WorkImage src="/images/works/thumbnail3.png" alt="walknote" />
+          <WorkImage src="/images/works/thumbnail3.jpg" alt="branding" />
         </SimpleGrid>
       </Container>
     </Layout>

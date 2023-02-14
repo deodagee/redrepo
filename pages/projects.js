@@ -4,8 +4,8 @@ import Section from '../components/section';
 import { WorkGridItem } from '../components/grid-item';
 
 
-import weatherapp from '../public/images/works/weatherapp.png';
-import thumbnail from '../public/images/works/thumbnail.png';
+import weatherapp from '../public/images/works/weatherapp.jpg';
+import thumbnail from '../public/images/works/thumbnail.jpg';
 
 
 
