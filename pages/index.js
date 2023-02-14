@@ -75,7 +75,7 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          Home
         </Heading>
         <Paragraph>
         If you&apos;re looking for a desktop or mobile design, I can help. I create functional and aesthetically pleasing websites. When it comes to website design, I have experience in using CSS for layout and styling, adding interactivity with JavaScript, and leveraging Next.js to build and enhance server-rendered React applications. In terms of deployment, I have made use of different hosting platforms and can deploy websites accordingly. Additionally, I have a solid understanding of responsive design to ensure websites are accessible on a variety of devices. Currently, my latest product render was made with the latest version of the&nbsp;
