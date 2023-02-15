@@ -6,7 +6,8 @@ import {
     List,
     ListItem,
     UnorderedList,
-    Image
+    Image,
+    SimpleGrid
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article2'
   import { Title, WorkImage, Meta } from '../../components/work2'
@@ -54,8 +55,12 @@ import {
           </Link>
         </Box>
   
-        <WorkImage src="/images/works/wide3.png" alt="menkiki" />
-
+        <SimpleGrid
+        ml="35%"
+         columns={2} 
+         gap={2}>
+          <WorkImage src="/images/works/thumbnail3.jpg" alt="branding" />
+        </SimpleGrid>
       </Container>
     </Layout>
   )

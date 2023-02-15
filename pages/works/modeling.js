@@ -7,7 +7,8 @@ import {
     UnorderedList,
     Heading,
     Center,
-    Image
+    Image,
+    SimpleGrid
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article2'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
@@ -102,8 +103,12 @@ import {
           </ListItem>
         </UnorderedList>
   
-        <WorkImage src="/images/works/amembo_eyecatch.png" alt="freeDBTagger" />
-      </Container>
+        <SimpleGrid
+        ml="35%"
+         columns={2} 
+         gap={2}>
+          <WorkImage src="/images/works/thumbnail3.jpg" alt="branding" />
+        </SimpleGrid>      </Container>
     </Layout>
   )
   

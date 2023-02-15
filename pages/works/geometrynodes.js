@@ -6,7 +6,8 @@ import {
     ListItem,
     UnorderedList,
     Heading,
-    Center
+    Center,
+    SimpleGrid
   } from '@chakra-ui/react'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
   import { Title, WorkImage, Meta } from '../../components/work2'
@@ -64,15 +65,12 @@ import {
           </ListItem>
         </UnorderedList>
 
-        <WorkImage
-          src="/images/works/footprint.png"
-          alt="walknote"
-        />
-  
-        <WorkImage
-          src="/images/works/the-four-painters_eyecatch.jpg"
-          alt="walknote"
-        />
+        <SimpleGrid
+        ml="35%"
+         columns={2} 
+         gap={2}>
+          <WorkImage src="/images/works/thumbnail3.jpg" alt="branding" />
+        </SimpleGrid>
       </Container>
     </Layout>
   )
