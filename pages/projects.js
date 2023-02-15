@@ -50,34 +50,36 @@ const Works = () => (
         <Section>
           <WorkGridItem
           mb = {10} 
-            id=""
-            title="Empty"
+            id="3dimages"
+            title="3dimages"
             thumbnail={thumbnail}
             quality={50}>
-            Description
+            See Gallery
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
           <WorkGridItem
           mb = {10} 
-            id=""
-            title="Empty"
+            id="3dimages"
+            title="3dimages"
             thumbnail={thumbnail}
             quality={50}>
-            Description
+            See Gallery
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem 
-          id=""
-          title="Empty"
-          thumbnail={thumbnail}
-          quality={50} >
-          Description
+          <WorkGridItem
+          mb = {10} 
+            id="3dimages"
+            title="3dimages"
+            thumbnail={thumbnail}
+            quality={50}>
+            See Gallery
           </WorkGridItem>
         </Section>
+
       </SimpleGrid>
 
       <Section delay={0.2}>
@@ -91,29 +93,29 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.3}>
           <WorkGridItem 
-          id=""
-          title="Empty"
+          id="Videos"
+          title="videos"
           thumbnail={thumbnail} 
           quality={50}>
-          Description
+          See Gallery
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem
-            id=""
-            title="Empty"
+            id="Videos"
+            title="videos"
             thumbnail={thumbnail}
             quality={50}>
-            Description
+            See Gallery
           </WorkGridItem>
         </Section>
         <Section delay={0.3}>
           <WorkGridItem 
-          id=""
-          title="Empty"
+          id="Videos"
+          title="videos"
           thumbnail={thumbnail}
           quality={50} >
-          Description
+          See Gallery
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -129,29 +131,29 @@ const Works = () => (
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
           <WorkGridItem 
-          id=""
-          title="Empty"
+          id="olderprojects"
+          title="Older Projects"
           thumbnail={thumbnail}
           quality={50} >
-          Description
+          See Gallery
           </WorkGridItem>
         </Section>
         <Section delay={0.5}>
           <WorkGridItem
-            id=""
-            title="Empty"
+            id="olderprojects"
+            title="Older Projects"
             thumbnail={thumbnail}
             quality={50}>
-            Description
+            See Gallery
           </WorkGridItem>
         </Section>
         <Section delay={0.6}>
           <WorkGridItem 
-          id=""
-          title="Empty"
+          id="olderprojects"
+          title="Older Projects"
           thumbnail={thumbnail}
           quality={50} >
-          Description
+          See Gallery
           </WorkGridItem>
         </Section>
       </SimpleGrid>

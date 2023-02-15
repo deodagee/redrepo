@@ -8,8 +8,8 @@ import {
     UnorderedList,
     Image
   } from '@chakra-ui/react'
-  import Layout from '../../components/layouts/article'
-  import { Title, WorkImage, Meta } from '../../components/work'
+  import Layout from '../../components/layouts/article2'
+  import { Title, WorkImage, Meta } from '../../components/work2'
   import P from '../../components/paragraph'
   
   const Work = () => (

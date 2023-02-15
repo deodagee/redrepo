@@ -1,17 +1,8 @@
 {
-  "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
-  "/404": "pages/404.html",
-  "/": "pages/index.html",
-  "/gallery": "pages/gallery.html",
-  "/projects": "pages/projects.html",
-  "/services": "pages/services.html",
-  "/works/audio": "pages/works/audio.html",
-  "/works/branding": "pages/works/branding.html",
-  "/works/frontend": "pages/works/frontend.html",
-  "/works/geometrynodes": "pages/works/geometrynodes.html",
+  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/works/uiux": "pages/works/uiux.html",
-  "/works/modeling": "pages/works/modeling.html",
-  "/works/weatherapp": "pages/works/weatherapp.html"
+  "/services": "pages/services.js",
+  "/": "pages/index.js",
+  "/404": "pages/404.js"
 }

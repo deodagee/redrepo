@@ -5,9 +5,9 @@ import {
     List,
     ListItem
     } from '@chakra-ui/react'
-  import Layout from '../../components/layouts/article'
+  import Layout from '../../components/layouts/article2'
   import { ExternalLinkIcon } from '@chakra-ui/icons'
-  import { Title, WorkImage, Meta } from '../../components/work'
+  import { Title, WorkImage, Meta } from '../../components/work2'
   import P from '../../components/paragraph'
   
   const Work = () => (
