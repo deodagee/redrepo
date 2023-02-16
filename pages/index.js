@@ -22,7 +22,7 @@ import thumbnail3 from '../public/images/works/thumbnail3.jpg';
 import Image from 'next/image';
 
 const ProfileImage = chakra(Image, {
-  shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
+  shouldForwardProp: prop => ['width', 'height', 'src', 'alt', 'loading','borderRadius','display'].includes(prop)
 })
 
 const Home = () => (
@@ -69,6 +69,7 @@ const Home = () => (
               width="100"
               height="100"
               quality={50}
+              loading="eager"
             />
           </Box>
         </Box>

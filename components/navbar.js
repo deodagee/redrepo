@@ -90,9 +90,9 @@ const Navbar = props => {
                         </LinkItem>
                         
                         <LinkItem 
-                        href="/gallery"
+                        href="/contact"
                         path= {path}>
-                        Gallery
+                        Contact
                         </LinkItem>
 
                         <LinkItem 
@@ -130,8 +130,8 @@ const Navbar = props => {
                                     <MenuItem as={Link}>Projects</MenuItem>
                                 </NextLink>
 
-                                <NextLink href="/gallery" passHref>
-                                    <MenuItem as={Link}>Gallery</MenuItem>
+                                <NextLink href="/contact" passHref>
+                                    <MenuItem as={Link}>Contact</MenuItem>
                                 </NextLink>
 
                                 <NextLink href="https://github.com/deodagee/greenrepo" passHref>

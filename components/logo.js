@@ -2,6 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import {Text, useColorModeValue} from '@chakra-ui/react';
 import styled from '@emotion/styled';
+import { easeIn } from 'framer-motion';
 
 const LogoBox = styled.span`
 font-weight"bold;
@@ -29,11 +30,14 @@ const Logo = () => {
                     width={30}
                     height={30}
                     alt="logo"
-                    quality={50} />
+                    quality={50}
+                    loading= "eager"/>
                     <Text
                     color={useColorModeValue('#D0021B', '#E5E5E5')}
                     fontFamily="'Babylonica', cursive "
                     fontWeight="bold"
+                    
+                    
                     
                     ml={5}>
                         Deo Singiza
